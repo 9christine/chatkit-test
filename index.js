@@ -1,3 +1,5 @@
+// TEST TOKEN ONLY. Not for production.
+
 const testToken = "https://us1.pusherplatform.io/services/chatkit_token_provider/v1/e38ac8b1-063d-4093-98ef-4afa640724e4/token"
 const instanceLocator = "v1:us1:e38ac8b1-063d-4093-98ef-4afa640724e4"
 const roomId = 999999
