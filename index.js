@@ -1,5 +1,12 @@
 class App extends React.Component {
 
+  constructor() {
+    super()
+    this.state = {
+      messages: TEST_DATA
+    }
+   }
+
   render() {
     return (
       <div className = "app">
@@ -10,3 +17,14 @@ class App extends React.Component {
     )
   }
 }
+
+const TEST_DATA = [
+  {
+    senderId: "kateb",
+    test: "I miss Paris."
+  },
+  {
+    senderId: "johnearly",
+    text: "I find that I miss it."
+  }
+]
